@@ -5,4 +5,5 @@ date: <dc:date>
 geometry:
 - margin=20mm
 linkcolor: blue
+documentclass: scrartcl
 ...

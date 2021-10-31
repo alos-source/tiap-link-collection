@@ -61,10 +61,5 @@ https://support.industry.siemens.com/cs/de/de/view/109478459)
 
 - SINAMICS S120 Firmware [Download](https://support.industry.siemens.com/cs/ww/de/view/109780844)
 
-# Disclaimer
-Dies ist eine persönliche Sammlung von Links, die ich für nützlich halte. Ich glaube, dass sie auch für andere hilfreich sein kann.
-
-Haftung für Links
-
-Diese Seite enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Deshalb kann ich für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
-Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+## Sources
+Dieses Dokument wurde in markdown geschrieben und mit pandoc generiert. Sources befinden sich im Git-Hub Repository: [bit.ly/tiapv17](https://bit.ly/tiapv17).
