@@ -3,6 +3,7 @@
 
 Collection of various download links for TIA Portal V17 from SIOS:
 
+- Check compatibility with operating system via [compa-tool](https://support.industry.siemens.com/kompatool/pages/main/index.jsf), also see overview of Microsoft for [Windows10 Versions and LTSCs](https://docs.microsoft.com/en-us/windows/whats-new/ltsc/)
 - TIA Portal Silent Installer: [Download](https://support.industry.siemens.com/cs/ww/en/view/109477685)
 - SIMATIC STEP 7 incl. Safety, S7-PLCSIM and WinCC V17 TRIAL: [Download](https://support.industry.siemens.com/cs/ww/en/view/109784440)
 - SIMATIC STEP 7 CFC V17.0: Download not available in SIOS
@@ -40,4 +41,4 @@ Further information regarding TIA Portal V17 can be found in the Delivery Releas
 - SINAMICS S120 Firmware: [Download](https://support.industry.siemens.com/cs/ww/en/view/109780844)
 
 ## Sources
-This document has been generated from markdown using pandoc. Sources are available at [bit.ly/tiapv17](https://bit.ly/tiapv17).
+This document has been generated from markdown using pandoc. Sources are available at [bit.ly/installV17](https://bit.ly/installV17)).
