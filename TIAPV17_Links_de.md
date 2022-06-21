@@ -43,6 +43,7 @@ Weitere Informationen zu V17 finden sich in der TIA Portal V17 Freigabe: [Produk
 - SIMATIC ProSave V17 Updates: [Download](https://support.industry.siemens.com/cs/ww/de/view/10347815) 
 - SIMATIC S7-PLCSIM Advanced V4.0 - Service Pack: [Download](https://support.industry.siemens.com/cs/ww/en/view/109805271)
 - TIA Portal Test Suite Advanced V17 Updates: [Download](https://support.industry.siemens.com/cs/ww/en/view/109793100)
+- SINAMICS Startdrive V17: [Download](https://support.industry.siemens.com/cs/de/de/view/109794362)
 
 ## Firmware Downloads
 - SIMATIC S7-1500 CPUs incl. Displays und ET 200 CPUs (ET 200SP, ET 200pro) Firmware-Update: [Download](
