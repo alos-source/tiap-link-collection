@@ -1,9 +1,8 @@
 # TIA Portal V18 Links
 TIA Portal - Ein Überblick der wichtigsten Dokumente und Links: [Überblick](https://support.industry.siemens.com/cs/ww/de/view/65601780)
+
 ## V18 Installations-Downloads
-
 Sammlung verschiedener Download-Links aus SIOS zu TIA Portal:
-
 - Check für Kompatiblität mit Betriebssystem über [Kompa-Tool](https://support.industry.siemens.com/compatool/#/main/start), siehe dazu auch die Übersicht von Microsoft zu [Windows10 Versionen und LTSCs](https://docs.microsoft.com/de-de/windows/whats-new/ltsc/)
 - Welche Voraussetzungen müssen für die Installation von TIA Portal V18 erfüllt sein? [FAQ](https://support.industry.siemens.com/cs/ww/de/view/109815109)
 - TIA Portal Silent Installer: [Download](https://support.industry.siemens.com/cs/ww/de/view/109477685)
