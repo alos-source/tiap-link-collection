@@ -1,0 +1,1 @@
+powershell .\replace.ps1 .\TIAPV20_Links_de_placeholder.md
