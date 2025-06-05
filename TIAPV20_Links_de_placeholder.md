@@ -11,7 +11,7 @@ mainfont: sans-serif
 
 ---
 
-# TIA Portal V19 Links
+# TIA Portal V20 Links
 TIA Portal - Ein Überblick der wichtigsten Dokumente und Links: [Überblick](%SIOS%65601780)
 
 ## Allgemeine Informationen
@@ -20,7 +20,7 @@ TIA Portal - Ein Überblick der wichtigsten Dokumente und Links: [Überblick](%S
 - Check für Kompatiblität mit Betriebssystem über [Kompa-Tool](https://support.industry.siemens.com/compatool/#/main/start), siehe dazu auch die Übersicht von Microsoft zu [Windows10 Versionen und LTSCs](https://docs.microsoft.com/de-de/windows/whats-new/ltsc/)
 - Welche Voraussetzungen müssen für die Installation von TIA Portal V19 erfüllt sein? [FAQ](%SIOS%109827383)
 
-## V19 Installations-Downloads
+## V20 Installations-Downloads
 Sammlung verschiedener Download-Links aus SIOS zu TIA Portal:
 
 - TIA Portal Silent Installer: [Download](%SIOS%109477685)
@@ -67,6 +67,10 @@ Weitere Informationen finden sich in der TIA Portal V19 Freigabe: [Produktmittei
 %SIOS%109478459)
 - SINAMICS S120 Firmware: [Download](%SIOS%109780844)
 - HMI Bediengeräte (Panel Images) Updates: [Download](%SIOS%109746530)
+
+## Update Tools
+- TIA Administrator: [Download](%SIOS%109825038)
+- TIA Updater Corporate Configuration Tool: [Download](%SIOS%109749564)
 
 ## Engineering Tools
 - S7-PCT für IO-Link Master: [Download](%SIOS%32469496)
