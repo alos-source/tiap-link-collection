@@ -1,4 +1,7 @@
-# �berpr�fen, ob eine Datei per Drag & Drop auf das Skript gezogen wurde 
+# �berpr�fen, ob eine Datei per Drag & Drop auf das Skript gezogen wurde 
+
+$timestampPlaceholder = "%%CURRENT_TIMESTAMP%%"
+$timestampFormat = "yyyy-MM-dd"      # Format für den Zeitstempel
 
 if ($args.Count -gt 0 -and (Test-Path -Path $args[0] -PathType Leaf)) { 
 
@@ -37,6 +40,27 @@ if ($args.Count -gt 0 -and (Test-Path -Path $args[0] -PathType Leaf)) {
     # Speichern des neuen Inhalts in der Ausgabedatei 
 
     $neuerInhalt | Set-Content -Path $ausgabeDatei 
+
+
+    # --- Zeitstempel in Quelldatei einfügen ---
+    try {
+        Write-Verbose "Überprüfe und ersetze Zeitstempel-Platzhalter '$timestampPlaceholder' in '$ausgabeDatei'."
+        $fileContent = Get-Content -LiteralPath $ausgabeDatei -Raw -ErrorAction Stop
+        
+        if ($fileContent -match [regex]::Escape($timestampPlaceholder)) {
+            $currentTimestamp = Get-Date -Format $timestampFormat
+            $fileContent = $fileContent -replace [regex]::Escape($timestampPlaceholder), $currentTimestamp
+            Set-Content -LiteralPath $ausgabeDatei -Value $fileContent -NoNewline -ErrorAction Stop
+            Write-Verbose "Zeitstempel '$currentTimestamp' wurde in '$ausgabeDatei' eingefügt."
+        }
+        else {
+            Write-Verbose "Platzhalter '$timestampPlaceholder' nicht in '$ausgabeDatei' gefunden. Kein Zeitstempel eingefügt."
+        }
+    }
+    catch {
+        Write-Warning "Fehler beim Einfügen des Zeitstempels in '$ausgabeDatei': $($_.Exception.Message)"
+    }
+
 
     #pandoc -o $ausgabeDateiHTML $ausgabeDatei --css=pandoc.css --standalone
     pandoc -o $ausgabeDateiHTML $ausgabeDatei --standalone

@@ -5,6 +5,16 @@ header-includes: |
     body,p,li {
       font-family: sans-serif;
     }
+
+    .content-footer { /* Klasse für den Inhalts-Footer */
+      margin-top: 40px; /* Abstand nach oben */
+      padding-top: 15px; /* Innenabstand oben */
+      border-top: 1px solid #ddd; /* Trennlinie oben */
+      font-size: 0.85em; /* Kleinere Schrift */
+      color: #666; /* Textfarbe */
+      text-align: center; /* Textausrichtung */
+    }
+
   </style>
 
 mainfont: sans-serif
@@ -93,3 +103,7 @@ Für weitere Informationen SIEMENS Industry Online Support:
 - [SIOS-Search "TIA Portal" Product notes](https://support.industry.siemens.com/cs/search?ps=100&t=all&search=tia%20portal%20v19&type=ProductNote&o=0&lc=de-WW)
 
 - [SIOS-Search "TIA Portal" Downloads](https://support.industry.siemens.com/cs/search?ps=100&t=all&search=tia%20portal%20v19&type=Download&o=0&lc=en-WW)
+
+<div class="content-footer">
+  *Stand: "%%CURRENT_TIMESTAMP%%"*
+</div>
