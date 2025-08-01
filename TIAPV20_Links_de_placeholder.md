@@ -59,10 +59,8 @@ Weitere Informationen finden sich in der TIA Portal V19 Freigabe: [Produktmittei
 - TIA Portal V20.0 Update: [Download](%SIOS%109963851)
 - WinCC Runtime Professional V20 Update: [Download](%SIOS%109963704)
 - SIMATIC WinCC Unified PC Runtime V20 Updates: [Download](%SIOS%109963700)
-
 - STEP 7 V19, S7-PLCSIM V19 und WinCC V19 Updates: [Download](%SIOS%109925643)
 - SiVArc SIMATIC Visualization Architect V20 Update: [Download](%SIOS%109974402)
-
 - WinCC Professional Runtime V19 Updates: [Download](%SIOS%109820999)
 - WinCC Unified PC Runtime V19 Updates: [Download](%SIOS%109820989)
 - SIMATIC Energy Suite V19 Updates: [Download](%SIOS%109947027)
@@ -94,6 +92,7 @@ Weitere Informationen finden sich in der TIA Portal V19 Freigabe: [Produktmittei
 - SINEC PNI Basic V1.0 Service Pack 1 Software: [Download](%SIOS%109804190)
 - Tool-Downloads für SIMATIC PCs: [Download](%SIOS%109792891)
 - SIMATIC ProSave: [Download](%SIOS%10347815) 
+- TIA Package Manager: [Download](%SIOS%109975682)
 
 ## Quellen
 Dieses Dokument wurde in markdown geschrieben und mit pandoc generiert. Die Quellen befinden sich im Git-Hub Repository: [bit.ly/installV17](https://bit.ly/installV17).
